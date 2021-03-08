@@ -13,8 +13,8 @@ namespace CalculateShoppingChange.Business.Tests
         // 1: After Payment, Change have to calculated correctly.
         // 2: Physical Money (Banknote and Coin) counts have to be calculated correctly according to currency type and change amount.
         // 3: Change parameters can't be less than zero.
-        // 4: Users money mave to be enough for payment (Payment cant be less than shopping cost.)
-        // 5: Change parameters cant be more than hundred billion.///////////////
+        // 4: Users money have to be enough for payment (Payment cant be less than shopping cost.)
+        // 5: Change parameters cant be more than hundred billion.
 
         [TestMethod]
         public void Change_Must_Be_Calculated_Accurately()
