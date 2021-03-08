@@ -9,7 +9,7 @@ namespace CalculateShoppingChange.Business.Concrete
 {
     public class ChangeManager : IChangeService
     {
-        //logform 
+        
         public ApiResponse<GetChangeResponse> GetChange(Transaction transaction)
         {
             var response = new ApiResponse<GetChangeResponse>();
